@@ -8,7 +8,7 @@ ESLint: Herramienta de validación de código para mantener la calidad del códi
 
 Configuración del Proyecto
 Clonar el repositorio:
-  git clone https://github.com/tu-usuario/tu-repositorio.git
+  git clone https://github.com/JuanJo9905/web_project_around_express.git
 
 Instalar dependencias:
 npm install express@4.21.1 react@18.3.1 react-dom@18.3.1 && 
