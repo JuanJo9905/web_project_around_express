@@ -52,6 +52,8 @@ const updateUserProfile = async (req, res) => {
       error.statusCode = 404;
       throw error;
     });
+
+    
     res.status(200).json(user);
   } catch (err) {
     if (err.name === 'ValidationError') {

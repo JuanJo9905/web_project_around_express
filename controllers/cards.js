@@ -31,7 +31,7 @@ const deleteCard = async (req, res) => {
       error.statusCode = 404;
       throw error;
     });
-    await card.remove();
+    await card.deleteOne();
     res.status(200).json({ message: 'Tarjeta eliminada con éxito' });
   } catch (err) {
     if (err.statusCode === 404) {
